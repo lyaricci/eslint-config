@@ -18,8 +18,11 @@ module.exports = {
       jsx: true
     },
   },
-  plugins: ["@typescript-eslint", "simple-import-sort", "react",
-    "jsx-a11y"],
+  plugins: [
+    "@typescript-eslint",
+    "simple-import-sort", "react",
+    "jsx-a11y"
+  ],
   rules: {
     "prettier/prettier": [
       "error",
