@@ -4,7 +4,10 @@
 
 - Standard config base;
 - Prettier;
-- Typescript support
+- Typescript support;
+- React plugin;
+- React Hooks plugin;
+- JSX a11y plugin
 
 ## How to setup
 
