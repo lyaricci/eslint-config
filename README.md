@@ -23,7 +23,7 @@ npm i -D @nathalyaricci/eslint-config
 # .eslintrc.js
 
 module.exports = {
-  extends: ["@nathalyaricci/eslint-config"],
+  extends: ["@nathalyaricci/eslint-config/{config-file}"], # /next.js or /node.js
 }
 ```
 
@@ -31,6 +31,6 @@ module.exports = {
 # .eslintrc.json
 
 {
-  extends: ["@nathalyaricci/eslint-config"],
+  extends: ["@nathalyaricci/eslint-config/{config-file}"], # /next.js or /node.js,
 }
 ```
