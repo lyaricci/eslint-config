@@ -2,7 +2,6 @@ module.exports = {
   env: {
     es2021: true,
     browser: true,
-    node: true,
   },
   extends: [
     "standard",
@@ -21,7 +20,8 @@ module.exports = {
   },
   plugins: [
     "@typescript-eslint",
-    "simple-import-sort", "react",
+    "simple-import-sort",
+    "react",
     "jsx-a11y"
   ],
   rules: {
