@@ -37,6 +37,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-var-requires": "off",
+    "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
     "react/prop-types": "off",
     "jsx-a11y/alt-text": [
