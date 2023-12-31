@@ -30,6 +30,8 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-var-requires": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   },
   settings: {
     "import/parsers": {

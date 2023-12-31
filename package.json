@@ -1,6 +1,6 @@
 {
   "name": "@nathalyaricci/eslint-config",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "ESlint configuration",
   "main": "eslint-config.js",
   "scripts": {

@@ -37,6 +37,8 @@ module.exports = {
         semi: false,
       },
     ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     "@typescript-eslint/no-var-requires": "off",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
