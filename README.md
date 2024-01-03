@@ -1,13 +1,16 @@
-# ESlint config for NodeJS
+# eslint-config
+
+ESlint configuration for React/Nextjs and Nodejs
 
 ## What is included?
 
 - Standard config base;
-- Prettier;
 - Typescript support;
 - React plugin;
 - React Hooks plugin;
 - JSX a11y plugin
+- Tailwindcss
+- Simple-import-sort
 
 ## How to setup
 
@@ -17,20 +20,20 @@
 npm i -D @nathalyaricci/eslint-config
 ```
 
-2. Extend the config in a `.eslintrc.js` or `.eslintrc.json` file
+2. Extend the config in a `.eslintrc.js`, `.eslintrc` or `.eslintrc.json` file
 
 ```bash
 # .eslintrc.js
 
 module.exports = {
-  extends: ["@nathalyaricci/eslint-config/{config-file}"], # /next.js or /node.js
+  extends: ["@nathalyaricci/eslint-config/{config-file}"] # /react or /node
 }
 ```
 
 ```bash
-# .eslintrc.json
+# .eslintrc.json or .eslintrc
 
 {
-  extends: ["@nathalyaricci/eslint-config/{config-file}"], # /next.js or /node.js,
+  extends: ["@nathalyaricci/eslint-config/{config-file}"] # /react or /node
 }
 ```

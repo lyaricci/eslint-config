@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     "standard",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -18,17 +17,6 @@ module.exports = {
     "simple-import-sort",
   ],
   rules: {
-    "prettier/prettier": [
-      "error",
-      {
-        printWidth: 80,
-        tabWidth: 2,
-        singleQuote: false,
-        trailingComma: "all",
-        arrowParens: "always",
-        semi: false,
-      },
-    ],
     "@typescript-eslint/no-var-requires": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"

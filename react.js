@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     "standard",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:tailwindcss/recommended"
@@ -26,17 +25,6 @@ module.exports = {
     "jsx-a11y"
   ],
   rules: {
-    "prettier/prettier": [
-      "error",
-      {
-        printWidth: 80,
-        tabWidth: 2,
-        singleQuote: false,
-        trailingComma: "all",
-        arrowParens: "always",
-        semi: false,
-      },
-    ],
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "@typescript-eslint/no-var-requires": "off",

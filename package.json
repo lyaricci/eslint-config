@@ -1,17 +1,20 @@
 {
   "name": "@nathalyaricci/eslint-config",
-  "version": "3.1.2",
+  "version": "4.0.0",
   "description": "ESlint configuration",
-  "main": "eslint-config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Nathálya Ricci",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lyaricci/eslint-config.git"
   },
+  "keywords": [
+    "eslint",
+    "configuration",
+    "react",
+    "node",
+    "tailwindcss"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
@@ -21,13 +24,11 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-tailwindcss": "^3.13.0",
-    "prettier": "^2.8.8"
+    "eslint-plugin-tailwindcss": "^3.13.0"
   },
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0",
