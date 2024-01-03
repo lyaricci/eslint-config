@@ -8,8 +8,8 @@ ESlint configuration for React/Nextjs and Nodejs
 - Typescript support;
 - React plugin;
 - React Hooks plugin;
-- JSX a11y plugin
-- Tailwindcss
+- JSX a11y plugin;
+- Tailwindcss;
 - Simple-import-sort
 
 ## How to setup
